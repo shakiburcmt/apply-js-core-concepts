@@ -24,4 +24,7 @@ function oddEvenFromArray(numbers) {
 
 array = [3, 4, 5, 7, 7, 3, 4, 1];
 const odd = oddEvenFromArray(array);
-console.log(odd);
+const onlyOdd = odd.odd_array;
+console.log(onlyOdd);
+const sum = odd.sum;
+console.log(sum);

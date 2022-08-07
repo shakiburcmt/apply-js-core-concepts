@@ -1,11 +1,9 @@
-function sum(number) {
-    let sum = 0;
-    for (let i = 0; i < number.length; i++) {
-        var s = sum + number[i];
-        console.log(i, sum);
+function factorial(number) {
+    let fact = 1;
+    for (let i = 1; i < number; i++) {
+        fact = fact * i;
     }
-    return sum;
+    return fact;
 }
-
-const myNumber = [4, 5, 6, 7];
-sum(myNumber);
+const result = factorial(5);
+console.log(result);
